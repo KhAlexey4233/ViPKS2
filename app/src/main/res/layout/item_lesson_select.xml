@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginHorizontal="16dp"
+  android:foreground="?attr/selectableItemBackground"
+  android:layout_marginBottom="12dp"
+  app:cardBackgroundColor="@color/blue_200"
+  app:cardCornerRadius="8dp"
+  app:cardElevation="1dp"
+  app:contentPadding="12dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/item_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gothampro_bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="-NtAUJPF6N1uI0rBgu0Z" />
+
+      <TextView
+        android:id="@+id/item_homework"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gothampro_regular"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="Тест из 20 вопросов" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

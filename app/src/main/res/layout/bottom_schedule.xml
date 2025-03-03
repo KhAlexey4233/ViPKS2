@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/corners_top_16dp"
+  android:backgroundTint="@color/blue_100"
+  android:orientation="vertical">
+
+  <androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/bottom_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gothampro_bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Занятия на 17.03.2024, пн" />
+
+      <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bottom_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        tools:listitem="@layout/item_schedule" />
+
+      <Button
+        android:id="@+id/bottom_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/blue_200"
+        android:fontFamily="@font/gothampro_bold"
+        android:paddingVertical="16dp"
+        android:text="Добавить занятие"
+        android:textColor="@color/blue_500"
+        app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

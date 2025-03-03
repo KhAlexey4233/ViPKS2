@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="12dp"
+  app:cardBackgroundColor="@color/blue_200"
+  app:cardElevation="0dp">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintTop_toTopOf="parent">
+
+      <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        app:boxBackgroundColor="@color/blue_100"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxStrokeColor="@color/blue_400"
+        app:boxStrokeErrorColor="@color/red_400"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/item_question"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:enabled="false"
+          android:fontFamily="@font/gothampro_bold"
+          android:hint="Вопрос"
+          android:inputType="textMultiLine|textCapSentences"
+          android:maxLines="4"
+          android:textColor="@color/black"
+          android:textColorHint="@color/gray"
+          android:textSize="14sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:elevation="1dp"
+        app:boxBackgroundColor="@color/blue_100"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxStrokeColor="@color/blue_400"
+        app:boxStrokeErrorColor="@color/red_400"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/item_answer"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:enabled="false"
+          android:fontFamily="@font/gothampro_medium"
+          android:hint="Ответ"
+          android:inputType="text|textCapSentences"
+          android:textColor="@color/black"
+          android:textColorHint="@color/gray"
+          android:textSize="14sp"
+          tools:text="ответ" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

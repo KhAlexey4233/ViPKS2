@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Base.Theme.FinKid" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FinKid" parent="Base.Theme.FinKid" />
+
+</resources>

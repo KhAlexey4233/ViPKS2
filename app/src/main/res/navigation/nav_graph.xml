@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+  <fragment
+      android:id="@+id/authFragment"
+      android:name="com.finkid.presentation.screens.common.AuthFragment"
+      android:label="fragment_auth"
+      tools:layout="@layout/fragment_auth" />
+  <fragment
+      android:id="@+id/splashFragment"
+      android:name="com.finkid.presentation.screens.common.SplashFragment"
+      android:label="fragment_splash"
+      tools:layout="@layout/fragment_splash" />
+  <fragment
+      android:id="@+id/studentAnswersFragment"
+      android:name="com.finkid.presentation.screens.student.StudentAnswersFragment"
+      android:label="fragment_student_answers"
+      tools:layout="@layout/fragment_student_answers" />
+  <fragment
+      android:id="@+id/studentHomeFragment"
+      android:name="com.finkid.presentation.screens.student.StudentHomeFragment"
+      android:label="fragment_student_home"
+      tools:layout="@layout/fragment_student_home" />
+  <fragment
+      android:id="@+id/studentProfileFragment"
+      android:name="com.finkid.presentation.screens.student.StudentProfileFragment"
+      android:label="fragment_student_profile"
+      tools:layout="@layout/fragment_student_profile" />
+  <fragment
+      android:id="@+id/studentTestFragment"
+      android:name="com.finkid.presentation.screens.student.StudentTestFragment"
+      android:label="fragment_student_test"
+      tools:layout="@layout/fragment_student_test" />
+  <fragment
+      android:id="@+id/teacherAnswersFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherAnswersFragment"
+      android:label="fragment_teacher_answers"
+      tools:layout="@layout/fragment_teacher_answers" />
+  <fragment
+      android:id="@+id/teacherCreateTestFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherCreateTestFragment"
+      android:label="fragment_teacher_create_test"
+      tools:layout="@layout/fragment_teacher_create_test" />
+  <fragment
+      android:id="@+id/teacherLessonsFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherLessonsFragment"
+      android:label="fragment_teacher_lessons"
+      tools:layout="@layout/fragment_teacher_lessons" />
+  <fragment
+      android:id="@+id/teacherHomeFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherHomeFragment"
+      android:label="fragment_teacher_home"
+      tools:layout="@layout/fragment_teacher_home" />
+  <fragment
+      android:id="@+id/teacherProfileFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherProfileFragment"
+      android:label="fragment_teacher_profile"
+      tools:layout="@layout/fragment_teacher_profile" />
+  <fragment
+      android:id="@+id/teacherStudentsFragment"
+      android:name="com.finkid.presentation.screens.teacher.TeacherStudentsFragment"
+      android:label="fragment_teacher_students"
+      tools:layout="@layout/fragment_teacher_students" />
+  <fragment
+      android:id="@+id/studentProgressFragment"
+      android:name="com.finkid.presentation.screens.student.StudentProgressFragment"
+      android:label="fragment_student_progress"
+      tools:layout="@layout/fragment_student_progress" />
+</navigation>

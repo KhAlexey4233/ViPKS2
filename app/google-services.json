@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "328761078312",
+    "firebase_url": "https://classapp-c0f82-default-rtdb.firebaseio.com",
+    "project_id": "classapp-c0f82",
+    "storage_bucket": "classapp-c0f82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328761078312:android:6bfb2aeaa973a12609fb1d",
+        "android_client_info": {
+          "package_name": "com.finkid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTQNbT1dBr5zJILAInPPD649w86covOhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

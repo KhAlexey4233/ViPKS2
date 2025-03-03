@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_400">#E59999</color>
+    <color name="blue_400">#3D5CFF</color>
+    <color name="blue_500">#2941BC</color>
+    <color name="red_500">#E64949</color>
+    <color name="blue_200">#C1CBFD</color>
+    <color name="blue_100">#F0F2FF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="onBackground">#000000</color>
+    <color name="surface">#F8F8F8</color>
+    <color name="surfaceVariant">#C2CCFA</color>
+    <color name="onSurfaceVariant">#000000</color>
+    <color name="blue_300">#5E75F4</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
